@@ -1,6 +1,6 @@
 function Navbar(){
     return (
-        <h1>Nav bar</h1>
+        <h1>Remodeling my portfolio</h1>
     )
 }
 
