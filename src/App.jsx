@@ -18,7 +18,8 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
+        {/* to do */}
+        {/* <Works /> */}
         <div className="relative z-0">
           {/* <Contact /> */}
           <StarsCanvas />
