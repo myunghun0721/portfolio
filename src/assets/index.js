@@ -27,6 +27,9 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import express from "./tech/express.png";
+import vue from "./tech/vue.svg";
+import flask from "./tech/flask.svg";
 
 // Import common assets
 import logo from "./logo.png";
@@ -61,4 +64,7 @@ export {
   aa,
   web,
   edu,
+  express,
+  vue,
+  flask,
 };

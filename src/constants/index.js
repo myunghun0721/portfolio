@@ -21,6 +21,9 @@ import {
   aa,
   web,
   edu,
+  vue,
+  express,
+  flask,
 } from "../assets";
 
 export const navLinks = [
@@ -39,21 +42,25 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
+  { title: "HTML", icon: html },
+  { title: "CSS", icon: css },
+  { title: "JavaScript", icon: javascript },
   { title: "Python", icon: python },
-  { title: "Java", icon: java },
 ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
+  //frameworks
+  { name: "React", icon: reactjs },
+  { name: "Vue", icon: vue },
+  { name: "Express", icon: express },
+  { name: "Flask", icon: flask },
 ];
 
 export const experiences = [
@@ -90,8 +97,8 @@ export const experiences = [
   {
     title: "Web Developer",
     company_name: "Rochester Institute of Technology | Rochester, NY",
-    icon: mathwork,
-    iconBg: "#161329",
+    icon: web,
+    iconBg: "#fff",
     date: "Jan 2023 - May 2023",
     points: [
       "Designed and delivered a static website that could be maintained by non-techical users post-graduation.",
